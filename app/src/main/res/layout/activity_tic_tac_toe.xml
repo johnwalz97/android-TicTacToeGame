@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/gameboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:tag="1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/a"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/b"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/c"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:tag="4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/d"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/e"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/f"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:tag="7"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/g"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="8"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/h"
+                android:layout_margin="5dp" />
+            <Button
+                android:tag="9"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:onClick="pressButton"
+                android:id="@+id/i"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:id="@+id/reset"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
